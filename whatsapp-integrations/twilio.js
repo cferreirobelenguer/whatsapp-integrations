@@ -20,7 +20,7 @@ function sendTestMessage(sender, message) {
             .catch((err)=>reject(err));
     });
 }
-//sendTestMessage("34646907065","Estoo funciona");
+
 //Exportamos la función para que sea aplicable en app.js
 module.exports={
     sendTestMessage,
